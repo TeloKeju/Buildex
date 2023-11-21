@@ -1,0 +1,25 @@
+.left-picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.right-picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+@media screen and (max-width: 610px) {
+    .left-picture {
+        grid-template-columns: 1fr;
+    }
+
+    .right-picture {
+        grid-template-columns: 1fr;
+    }
+
+    .pict-wrap {
+        order: 2;
+    }
+}

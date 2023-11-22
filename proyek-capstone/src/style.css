@@ -10,6 +10,11 @@
     gap: 10px;
 }
 
+.btn-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 @media screen and (max-width: 610px) {
     .left-picture {
         grid-template-columns: 1fr;
@@ -22,4 +27,5 @@
     .pict-wrap {
         order: 2;
     }
+
 }

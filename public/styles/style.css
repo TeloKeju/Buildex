@@ -1,0 +1,81 @@
+/* 
+Home CSS
+*/
+
+.left-picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.right-picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.btn-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (max-width: 610px) {
+    .left-picture {
+        grid-template-columns: 1fr;
+    }
+
+    .right-picture {
+        grid-template-columns: 1fr;
+    }
+
+    .pict-wrap {
+        order: 2;
+    }
+
+}
+
+/* 
+desain CSS
+*/
+
+.content-desain {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 426px) {
+    .content-desain {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .content-desain {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* 
+contractor CSS
+*/
+
+.content-contractor {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 426px) {
+    .content-contractor {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .content-contractor {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

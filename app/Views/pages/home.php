@@ -31,19 +31,15 @@
             <h1 class="text-center fs-5" id="about">About Us</h1>
             <section class="left-picture">
                 <img src="https://placehold.co/300x300" class="rounded mx-auto d-block img-fluid" alt="pict" />
-                <section class="btn-wrap">
-                    <p class="mt-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-                        consequatur, atque voluptas tempora blanditiis doloremque enim ad
-                        culpa corrupti ea quam repudiandae vero, excepturi ratione. Officia
-                        doloremque ratione optio earum. Quaerat neque sequi doloremque
-                        temporibus debitis, nostrum eos optio accusamus voluptate voluptatum
-                        iste expedita earum nam ut at sint ex molestiae repellat excepturi
-                    </p>
-                    <button type="button" class=" btn btn-light m-auto w-auto">Selengkapnya</button>
-                </section>
+                <p class="mt-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                    consequatur, atque voluptas tempora blanditiis doloremque enim ad
+                    culpa corrupti ea quam repudiandae vero, excepturi ratione. Officia
+                    doloremque ratione optio earum. Quaerat neque sequi doloremque
+                    temporibus debitis, nostrum eos optio accusamus voluptate voluptatum
+                    iste expedita earum nam ut at sint ex molestiae repellat excepturi
+                </p>
             </section>
-
         </section>
         <section class="card p-3 mt-3">
             <h1 class="text-center mt-3 fs-5">Desain Rumah</h1>
@@ -82,17 +78,14 @@
         <section class="card p-3 mt-3">
             <h1 class="text-center mt-3 fs-5">Contact Person</h1>
             <section class="right-picture">
-                <section class="pict-wrap btn-wrap">
-                    <p class="mt-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-                        consequatur, atque voluptas tempora blanditiis doloremque enim ad
-                        culpa corrupti ea quam repudiandae vero, excepturi ratione. Officia
-                        doloremque ratione optio earum. Quaerat neque sequi doloremque
-                        temporibus debitis, nostrum eos optio accusamus voluptate voluptatum
-                        iste expedita earum nam ut at sint ex molestiae repellat excepturi
-                    </p>
-                    <button type="button" class=" btn btn-light m-auto w-auto">Selengkapnya</button>
-                </section>
+                <p class="mt-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                    consequatur, atque voluptas tempora blanditiis doloremque enim ad
+                    culpa corrupti ea quam repudiandae vero, excepturi ratione. Officia
+                    doloremque ratione optio earum. Quaerat neque sequi doloremque
+                    temporibus debitis, nostrum eos optio accusamus voluptate voluptatum
+                    iste expedita earum nam ut at sint ex molestiae repellat excepturi
+                </p>
                 <img src="https://placehold.co/300x300" class="rounded mx-auto d-block img-fluid" alt="pict" />
             </section>
         </section>

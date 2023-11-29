@@ -3,7 +3,7 @@
 <?= $this->section('content'); ?>
 <main class="p-3">
     <h1 class="text-center fs-5 mt-5" id="test">Detail Rumah</h1>
-    <article class="content">
+    <article class="content-desain">
         <section class="card mt-2">
             <img src="https://placehold.co/300x300" class="img-fluid m-0" alt="Foto Kontraktor">
             <section class="p-2">

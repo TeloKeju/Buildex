@@ -27,4 +27,12 @@ class Pages extends BaseController
         ];
         echo view('pages/contractor', $data);
     }
+
+    public function detail()
+    {
+        $data = [
+            'title' => 'Detail | Buildex'
+        ];
+        echo view('pages/detail', $data);
+    }
 }

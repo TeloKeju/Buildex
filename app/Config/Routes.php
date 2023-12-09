@@ -7,3 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Pages::index');
 $routes->setAutoRoute(true);
+$routes->get('detail/(:num)', 'Pages::detail/$1');

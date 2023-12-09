@@ -22,8 +22,12 @@ class Pages extends BaseController
 
     public function contractor()
     {
+        $jsonFilePath = FCPATH . 'data/contractor.json';
+        $jsonData = json_decode(file_get_contents($jsonFilePath), true);
+
         $data = [
-            'title' => 'Contractor | Buildex'
+            'title' => 'Contractor | Buildex',
+            'contractors' => $jsonData
         ];
         echo view('pages/contractor', $data);
     }

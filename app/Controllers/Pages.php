@@ -36,10 +36,22 @@ class Pages extends BaseController
         echo view('pages/contractor', $data);
     }
 
-    public function detail()
+    public function detail($id)
     {
+        $jsonFilePath = FCPATH . 'data/rumah.json';
+        $jsonData = json_decode(file_get_contents($jsonFilePath), true);
+
+        $rumahDetail = null;
+        foreach ($jsonData as $rumah) {
+            if ($rumah['id'] == $id) {
+                $rumahDetail = $rumah;
+                break;
+            }
+        }
+
         $data = [
-            'title' => 'Detail | Buildex'
+            'title' => 'Detail | Buildex',
+            'rumahDetail' => $rumahDetail
         ];
         echo view('pages/detail', $data);
     }

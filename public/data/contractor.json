@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nama": "John Doe",
+        "umur": 30,
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore"
+    },
+    {
+        "id": 2,
+        "nama": "Sumanto",
+        "umur": 28,
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore"
+    },
+    {
+        "id": 3,
+        "nama": "Jatmiko",
+        "umur": 42,
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore"
+    },
+    {
+        "id": 4,
+        "nama": "Jumari Ari",
+        "umur": 40,
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore"
+    },
+    {
+        "id": 1,
+        "nama": "Suparno",
+        "umur": 37,
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore"
+    },
+    {
+        "id": 1,
+        "nama": "Jokowi",
+        "umur": 30,
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore"
+    }
+]

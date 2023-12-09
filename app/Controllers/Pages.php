@@ -14,8 +14,12 @@ class Pages extends BaseController
 
     public function desain()
     {
+        $jsonFilePath = FCPATH . 'data/rumah.json';
+        $jsonData = json_decode(file_get_contents($jsonFilePath), true);
+
         $data = [
-            'title' => 'Desain | Buildex'
+            'title' => 'Desain | Buildex',
+            'rumah' => $jsonData
         ];
         echo view('pages/desain', $data);
     }

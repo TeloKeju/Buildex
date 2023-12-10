@@ -8,7 +8,7 @@
             <section class="card mt-2">
                 <img src="https://placehold.co/300x300" class="img-fluid m-0" alt="Foto Rumah">
                 <section class="p-2">
-                    <h1 class="fw-bold fs-5 mt-2"><a href="pages/detail"><?= $item['title']; ?></a></h1>
+                    <h1 class="fw-bold fs-5 mt-2"><a href="<?= base_url('detail/' . $item['id']); ?>"><?= $item['title']; ?></a></h1>
                     <h2 class="fw-light fs-6"><?= $item['kota']; ?></h2>
                     <h3 class="fw-normal fs-6">Luas Bangunan: <span class="fw-medium"><?= $item['luasBangunan']; ?></span></h3>
                     <h3 class="fw-normal fs-6">Luas Tanah: <span class="fw-medium"><?= $item['luasTanah']; ?></span></h3>

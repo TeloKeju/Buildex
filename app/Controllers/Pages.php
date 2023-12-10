@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class Pages extends BaseController
 {
-    public function index()
+    public function home()
     {
         $data = [
             'title' => 'Home | Buildex'

@@ -79,3 +79,34 @@ contractor CSS
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+/* 
+detail CSS
+*/
+
+.main-detail {
+    max-width: 900px;
+    margin: auto;
+}
+
+.carousel-inner h5 {
+    display: none;
+}
+
+.carousel-inner p {
+    display: none;
+}
+
+@media screen and (min-width: 529px) {
+    .content-detail h1 {
+        display: none;
+    }
+
+    .carousel-inner h5 {
+        display: block;
+    }
+
+    .carousel-inner p {
+        display: block;
+    }
+}

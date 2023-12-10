@@ -53,7 +53,7 @@
                         temporibus debitis, nostrum eos optio accusamus voluptate voluptatum
                         iste expedita earum nam ut at sint ex molestiae repellat excepturi
                     </p>
-                    <a href="pages/desain" class="btn btn-light m-auto w-auto">Selengkapnya</a>
+                    <a href="desain" class="btn btn-light m-auto w-auto">Selengkapnya</a>
                 </section>
                 <img src="https://placehold.co/300x300" class="rounded mx-auto d-block img-fluid" alt="pict" />
             </section>
@@ -71,7 +71,7 @@
                         temporibus debitis, nostrum eos optio accusamus voluptate voluptatum
                         iste expedita earum nam ut at sint ex molestiae repellat excepturi
                     </p>
-                    <a href="pages/contractor" class="btn btn-light m-auto w-auto">Selengkapnya</a>
+                    <a href="contractor" class="btn btn-light m-auto w-auto">Selengkapnya</a>
                 </section>
             </section>
         </section>

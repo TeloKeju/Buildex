@@ -3,36 +3,42 @@
         "id": 1,
         "nama": "John Doe",
         "umur": 30,
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore"
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore",
+        "pengalaman": "12 tahun"
     },
     {
         "id": 2,
         "nama": "Sumanto",
         "umur": 28,
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore"
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore",
+        "pengalaman": "7 tahun"
     },
     {
         "id": 3,
         "nama": "Jatmiko",
         "umur": 42,
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore"
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore",
+        "pengalaman": "8 tahun"
     },
     {
         "id": 4,
         "nama": "Jumari Ari",
         "umur": 40,
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore"
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore",
+        "pengalaman": "10 tahun"
     },
     {
-        "id": 1,
+        "id": 5,
         "nama": "Suparno",
         "umur": 37,
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore"
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore",
+        "pengalaman": "5 tahun"
     },
     {
-        "id": 1,
+        "id": 6,
         "nama": "Jokowi",
         "umur": 30,
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore"
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore",
+        "pengalaman": "2 tahun"
     }
 ]

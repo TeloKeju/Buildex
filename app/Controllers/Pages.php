@@ -55,4 +55,11 @@ class Pages extends BaseController
         ];
         echo view('pages/detail', $data);
     }
+     public function login()
+    {
+        $data = [
+            'title' => 'login | Buildex'
+        ];
+        echo view('pages/login', $data);
+    }
 }

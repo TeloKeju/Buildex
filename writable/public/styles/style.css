@@ -1,0 +1,129 @@
+/* 
+Home CSS
+*/
+
+.left-picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.right-picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.btn-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (max-width: 610px) {
+    .left-picture {
+        grid-template-columns: 1fr;
+    }
+
+    .right-picture {
+        grid-template-columns: 1fr;
+    }
+
+    .pict-wrap {
+        order: 2;
+    }
+
+}
+
+/* 
+desain CSS
+*/
+
+.content-desain {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 426px) {
+    .content-desain {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .content-desain {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* 
+contractor CSS
+*/
+
+.content-contractor {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 426px) {
+    .content-contractor {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .content-contractor {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* 
+detail CSS
+*/
+
+.main-detail {
+    max-width: 900px;
+    margin: auto;
+}
+
+.main-detail img {
+    width: 100%;
+}
+
+.carousel-inner h5 {
+    display: none;
+}
+
+.carousel-inner p {
+    display: none;
+}
+
+@media screen and (min-width: 529px) {
+    .content-detail h1 {
+        display: none;
+    }
+
+    .carousel-inner h5 {
+        display: block;
+    }
+
+    .carousel-inner p {
+        display: block;
+    }
+}
+
+/*
+Footer CSS
+*/
+
+.footer{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}

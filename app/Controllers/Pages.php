@@ -74,4 +74,12 @@ class Pages extends BaseController
         ];
         echo view('pages/login', $data);
     }
+
+    public function daftarclient()
+    {
+        $data = [
+            'title' => 'Daftar Client'
+        ];
+        echo view('pages/daftarclient', $data);
+    }
 }

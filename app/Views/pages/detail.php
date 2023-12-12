@@ -13,14 +13,14 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="https://placehold.co/300x300" class="d-block w-100" alt="...">
+                        <img src="<?= base_url($rumahDetail['rumah']); ?>" class="img-fluid m-0" alt="Foto Rumah">
                         <div class="carousel-caption d-md-block">
                             <h5><?= $rumahDetail['title']; ?></h5>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="https://placehold.co/300x300" class="d-block w-100" alt="...">
+                        <img src="<?= base_url($rumahDetail['desain']); ?>" class="img-fluid m-0" alt="Foto Rumah">
                         <div class="carousel-caption d-md-block">
                             <h5><?= $rumahDetail['title']; ?></h5>
                             <p>Some representative placeholder content for the second slide.</p>
@@ -53,6 +53,35 @@
                 <h3 class="fw-normal fs-6"><?= $rumahDetail['fitur2']; ?></h3>
                 <h3 class="fw-normal fs-6"><?= $rumahDetail['fitur3']; ?></h3>
                 <p>tentang: <?= $rumahDetail['description']; ?></p>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalmessage">
+                    Pesan
+                </button>
+
+                <div class="modal fade" id="modalmessage" tabindex="-1" aria-labelledby="modalmessagelabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <label for="tanggal_pembangunan" class="form-label">Tanggal Pembangunan:</label>
+                                <input type="date" class="form-control" id="tanggal_pembangunan">
+                                <label for="contractorSelect" class="form-label">Pilih Kontraktor:</label>
+                                <select class="form-select" id="contractorSelect" name="contractorSelect" aria-label="Default select example">
+                                    <?php
+                                    foreach ($contractors as $contractor) : ?>
+                                        <option value="<?= $contractor['nama']; ?>"><?= $contractor['nama']; ?></option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success">Pesan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </section>
         </section>
     </article>

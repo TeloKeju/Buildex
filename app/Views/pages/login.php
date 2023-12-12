@@ -28,6 +28,12 @@
                 <div class="modal-body">
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
+                            <span class="input-group-text">Username anda</span>
+                        </div>
+                        <input type="text" class="form-control nama" placeholder="username anda" />
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
                             <span class="input-group-text">Nama Lengkap</span>
                         </div>
                         <input type="text" class="form-control nama" placeholder="Nama Anda" />

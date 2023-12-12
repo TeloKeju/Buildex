@@ -4,6 +4,14 @@ namespace App\Controllers;
 
 class Pages extends BaseController
 {
+    public function index()
+    {
+        $data = [
+            'title' => 'Home | Buildex'
+        ];
+        echo view('pages/home', $data);
+    }
+
     public function home()
     {
         $data = [
@@ -40,6 +48,8 @@ class Pages extends BaseController
     {
         $jsonFilePath = FCPATH . 'data/rumah.json';
         $jsonData = json_decode(file_get_contents($jsonFilePath), true);
+        $jsoncontrpath = FCPATH . 'data/contractor.json';
+        $jsoncontract = json_decode(file_get_contents($jsoncontrpath), true);
 
         $rumahDetail = null;
         foreach ($jsonData as $rumah) {
@@ -51,11 +61,13 @@ class Pages extends BaseController
 
         $data = [
             'title' => 'Detail | Buildex',
-            'rumahDetail' => $rumahDetail
+            'rumahDetail' => $rumahDetail,
+            'contractors' => $jsoncontract
         ];
         echo view('pages/detail', $data);
     }
-     public function login()
+
+    public function login()
     {
         $data = [
             'title' => 'login | Buildex'

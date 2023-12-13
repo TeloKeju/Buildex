@@ -6,6 +6,7 @@
     <article class="content-desain">
         <?php foreach ($rumah as $item) : ?>
             <section class="card mt-2">
+                <a href=""></a>
                 <img src="<?= base_url($item['rumah']); ?>" class="img-fluid m-0" alt="Foto Rumah">
                 <section class="p-2">
                     <h1 class="fw-bold fs-5 mt-2"><a href="<?= base_url('detail/' . $item['id']); ?>"><?= $item['title']; ?></a></h1>

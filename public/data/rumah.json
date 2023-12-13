@@ -8,51 +8,66 @@
         "fitur1": "✓ kolam",
         "fitur2": "✓ taman bermain",
         "fitur3": "✓ club house",
-        "description": "The Zora merupakan hunian dengan konsep 3 Generasi yang mengusung nuansa Jepang didalamnya. Hingga saat ini The Zora telah sukses memasarkan 4 klaster yakni Keia, Kimora, Kazumi, dan Kiyomi serta satu area commercil, Daikanyama yang terdiri dari ruko dan kavling. Menyusul kesuksesan itu, The Zora seluas 19 hektar tengah memasarkan klaster terakhirnya, Kanade dengan 3 tipe berbeda. Ketiga tipe tersebut adalah tipe 12 x 22, tipe 10 x 20 dan tipe 8 x 17."
+        "description": "The Zora merupakan hunian dengan konsep 3 Generasi yang mengusung nuansa Jepang didalamnya. Hingga saat ini The Zora telah sukses memasarkan 4 klaster yakni Keia, Kimora, Kazumi, dan Kiyomi serta satu area commercil, Daikanyama yang terdiri dari ruko dan kavling. Menyusul kesuksesan itu, The Zora seluas 19 hektar tengah memasarkan klaster terakhirnya, Kanade dengan 3 tipe berbeda. Ketiga tipe tersebut adalah tipe 12 x 22, tipe 10 x 20 dan tipe 8 x 17.",
+        "harga" : "1.200.000",
+        "rumah": "/images/rumah1.jpg",
+        "desain": "/images/desain1.jpg"
     },
     {
         "id": 2,
-        "title": "Alamanda Asri",
-        "kota": "Rungkut, Surabaya",
+        "title": "Jatinangor City Park",
+        "kota": "jatinangor, Sumedang",
         "luasBangunan": "Dari 358 - 485m²",
         "luasTanah": "Dari 200 - 264m²",
         "fitur1": "✓ kolam",
         "fitur2": "✓ taman bermain",
         "fitur3": "✓ club house",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "harga" : "1.200.000",
+        "rumah": "/images/rumah2.jpg",
+        "desain": "/images/desain2.jpg"
     },
     {
         "id": 3,
-        "title": "The Zora Cluster Kanade",
-        "kota": "Pagedangan, Tangerang",
+        "title": "Parkland Podomoro",
+        "kota": "Teluk Jambe, Karawang",
         "luasBangunan": "Dari 358 - 485m²",
         "luasTanah": "Dari 200 - 264m²",
         "fitur1": "✓ kolam",
         "fitur2": "✓ taman bermain",
         "fitur3": "✓ club house",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "harga" : "1.200.000",
+        "rumah": "/images/rumah3.jpg",
+        "desain": "/images/desain3.jpg"
     },
     {
         "id": 4,
-        "title": "The Zora Cluster Kanade",
-        "kota": "Pagedangan, Tangerang",
+        "title": "Kraton Residence",
+        "kota": "Cikarang Utara, Bekasi",
         "luasBangunan": "Dari 358 - 485m²",
         "luasTanah": "Dari 200 - 264m²",
         "fitur1": "✓ kolam",
         "fitur2": "✓ taman bermain",
         "fitur3": "✓ club house",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "harga" : "1.200.000",
+        "rumah": "/images/rumah4.jpg",
+        "desain": "/images/desain4.jpg"
     },
     {
         "id": 5,
-        "title": "The Zora Cluster Kanade",
-        "kota": "Pagedangan, Tangerang",
+        "title": "Kota Baru Parahyangan",
+        "kota": "Padalarang, Bandung Barat",
         "luasBangunan": "Dari 358 - 485m²",
         "luasTanah": "Dari 200 - 264m²",
         "fitur1": "✓ kolam",
         "fitur2": "✓ taman bermain",
         "fitur3": "✓ club house",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "harga" : "1.200.000",
+        "rumah": "/images/rumah5.jpg",
+        "desain": "/images/desain5.jpg"
     },
     {
         "id": 6,
@@ -63,6 +78,9 @@
         "fitur1": "✓ kolam",
         "fitur2": "✓ taman bermain",
         "fitur3": "✓ club house",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "harga" : "1.200.000",
+        "rumah": "/images/rumah6.jpg",
+        "desain": "/images/desain6.jpg"
     }
 ]

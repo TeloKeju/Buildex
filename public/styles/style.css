@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Plus Jakarta Sans';
+}
+
+/* 
+Header CSS
+*/
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
 /* 
 Home CSS
 */
@@ -42,6 +58,13 @@ desain CSS
     display: grid;
     gap: 25px;
     grid-template-columns: 1fr;
+}
+
+.content-desain a {
+    text-decoration: none;
+    color: black;
+    min-width: 44px;
+    max-width: 44px;
 }
 
 @media screen and (min-width: 426px) {
@@ -89,6 +112,10 @@ detail CSS
     margin: auto;
 }
 
+.main-detail img {
+    width: 100%;
+}
+
 .carousel-inner h5 {
     display: none;
 }
@@ -109,4 +136,17 @@ detail CSS
     .carousel-inner p {
         display: block;
     }
+}
+
+/*
+Footer CSS
+*/
+
+.footer{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }

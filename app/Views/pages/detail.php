@@ -54,33 +54,40 @@
                 <h3 class="fw-normal fs-6"><?= $rumahDetail['fitur3']; ?></h3>
                 <p>tentang: <?= $rumahDetail['description']; ?></p>
 
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalmessage">
-                    Pesan
-                </button>
+                <?php if (session()->has('username')) : ?>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalmessage">
+                        Pesan
+                    </button>
 
-                <div class="modal fade" id="modalmessage" tabindex="-1" aria-labelledby="modalmessagelabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <label for="tanggal_pembangunan" class="form-label">Tanggal Pembangunan:</label>
-                                <input type="date" class="form-control" id="tanggal_pembangunan">
-                                <label for="contractorSelect" class="form-label">Pilih Kontraktor:</label>
-                                <select class="form-select" id="contractorSelect" name="contractorSelect" aria-label="Default select example">
-                                    <?php
-                                    foreach ($contractors as $contractor) : ?>
-                                        <option value="<?= $contractor['nama']; ?>"><?= $contractor['nama']; ?></option>
-                                    <?php endforeach; ?>
-                                </select>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-success">Pesan</button>
+                    <div class="modal fade" id="modalmessage" tabindex="-1" aria-labelledby="modalmessagelabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <label for="tanggal_pembangunan" class="form-label">Tanggal Pembangunan:</label>
+                                    <input type="date" class="form-control" id="tanggal_pembangunan">
+                                    <label for="contractorSelect" class="form-label">Pilih Kontraktor:</label>
+                                    <select class="form-select" id="contractorSelect" name="contractorSelect" aria-label="Default select example">
+                                        <?php
+                                        foreach ($contractors as $contractor) : ?>
+                                            <option value="<?= $contractor['nama']; ?>"><?= $contractor['nama']; ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">Pesan</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+
+                <?php else : ?>
+                    <button type="button" class="btn btn-secondary" title="You Must Log In!" disabled>
+                        Pesan
+                    </button>
+                <?php endif; ?>
 
             </section>
         </section>

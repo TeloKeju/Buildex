@@ -9,29 +9,16 @@
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="<?= base_url($rumahDetail['rumah']); ?>" class="img-fluid m-0" alt="Foto Rumah">
+                        <img src="<?= base_url($rumahDetail['rumah']); ?>" class="darken img-fluid m-0" alt="Foto Rumah">
                         <div class="carousel-caption d-md-block">
-                            <h5><?= $rumahDetail['title']; ?></h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5 class="title"><?= $rumahDetail['title']; ?></h5>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="<?= base_url($rumahDetail['desain']); ?>" class="img-fluid m-0" alt="Foto Rumah">
-                        <div class="carousel-caption d-md-block">
-                            <h5><?= $rumahDetail['title']; ?></h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://placehold.co/300x300" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-md-block">
-                            <h5><?= $rumahDetail['title']; ?></h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -46,13 +33,15 @@
             <!-- <img src="https://placehold.co/300x300" class="image img-fluid m-0 " alt="Foto Rumah"> -->
             <section class="p-2">
                 <h1 class="fw-bold fs-5 mt-2"><?= $rumahDetail['title']; ?></h1>
-                <h2 class="fw-light fs-6"><?= $rumahDetail['kota']; ?></h2>
+                <h2 class="fw-light fs-6 p-2"><?= $rumahDetail['kota']; ?></h2>
                 <!-- <h3 class="fw-normal fs-6">Luas Bangunan: <span class="fw-medium"><?= $rumahDetail['luasBangunan']; ?></span></h3> -->
                 <!-- <h3 class="fw-normal fs-6">Luas Tanah: <span class="fw-medium"><?= $rumahDetail['luasTanah']; ?></span></h3> -->
-                <h3 class="fw-normal fs-6"><?= $rumahDetail['fitur1']; ?></h3>
-                <h3 class="fw-normal fs-6"><?= $rumahDetail['fitur2']; ?></h3>
-                <h3 class="fw-normal fs-6"><?= $rumahDetail['fitur3']; ?></h3>
-                <p>tentang: <?= $rumahDetail['description']; ?></p>
+                <h3 class="fw-semibold fs-6 ms-4 mb-0 border-start">Harga</h3>
+                <h3 class="fw-bold fs-6 ms-4 border-start"><?= $rumahDetail['harga']; ?></h3>
+                <h3 class="fw-normal fs-6 ms-2"><?= $rumahDetail['fitur1']; ?></h3>
+                <h3 class="fw-normal fs-6 ms-2"><?= $rumahDetail['fitur2']; ?></h3>
+                <h3 class="fw-normal fs-6 ms-2"><?= $rumahDetail['fitur3']; ?></h3>
+                <p class="mt-3 p-2"><?= $rumahDetail['description']; ?></p>
 
                 <?php if (session()->has('username')) : ?>
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalmessage">

@@ -13,9 +13,9 @@
             <input type="password" class="form-control" id="loginPassword">
         </div>
         <button type="submit" class="btn btn-primary" id="btnLogin">Log In</button>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pendaftaran">
+        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pendaftaran">
             Daftar Sekarang
-        </button>
+        </button> -->
     </form>
 
     <div class="modal fade" id="pendaftaran" tabindex="-1" aria-labelledby="pendaftaran" aria-hidden="true">

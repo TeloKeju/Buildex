@@ -34,7 +34,7 @@
                 <h1 class="fw-bold fs-5 mt-2"><?= $rumahDetail['title']; ?></h1>
                 <h2 class="fw-light fs-6 p-2"><?= $rumahDetail['kota']; ?></h2>
                 <h3 class="fw-semibold fs-6 ms-4 mb-0 border-start">Harga</h3>
-                <h3 class="fw-bold fs-6 ms-4 border-start"><?= $rumahDetail['harga']; ?></h3>
+                <h3 class="fw-bold fs-6 ms-4 border-start">Rp. <?= $rumahDetail['harga']; ?></h3>
                 <h3 class="fw-normal fs-6 ms-2"><?= $rumahDetail['fitur1']; ?></h3>
                 <h3 class="fw-normal fs-6 ms-2"><?= $rumahDetail['fitur2']; ?></h3>
                 <h3 class="fw-normal fs-6 ms-2"><?= $rumahDetail['fitur3']; ?></h3>
@@ -134,11 +134,7 @@
             var description4 = $('#descempat').val();
             var title = $('#title').val();
             var kota = $('#kota').val();
-            var rumahPath = "<?= base_url($rumahDetail['rumahpath']); ?>";
-            var desainPath = "<?= base_url($rumahDetail['desainpath']); ?>";
 
-            console.log('rumahpath:', rumahPath)
-            
             $.ajax({
                 type: "POST",
                 url: "<?= base_url('pages/pesanan') ?>",
@@ -161,19 +157,17 @@
                     description3: description3,
                     description4: description4,
                     title: title,
-                    kota: kota,
-                    rumah: rumahPath,
-                    desain: desainPath
+                    kota: kota
                 },
                 async: true,
-                beforeSend: function () {
+                beforeSend: function() {
                     $('#pesan').html('<i class="fas fa-spinner fa-spin"></i>');
                 },
                 success: function(response) {
                     toastr.success('Data berhasil dikirim. Tunggu konfirmasi selanjutnya.');
                     setTimeout(function() {
                         location.reload();
-                    }, 3000); 
+                    }, 3000);
                 },
                 error: function(error) {
                     console.error('Error sending message:', error);

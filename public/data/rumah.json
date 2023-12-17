@@ -8,10 +8,15 @@
         "fitur1": "✓ kolam",
         "fitur2": "✓ taman bermain",
         "fitur3": "✓ club house",
-        "description": "The Zora merupakan hunian dengan konsep 3 Generasi yang mengusung nuansa Jepang didalamnya. Hingga saat ini The Zora telah sukses memasarkan 4 klaster yakni Keia, Kimora, Kazumi, dan Kiyomi serta satu area commercil, Daikanyama yang terdiri dari ruko dan kavling. Menyusul kesuksesan itu, The Zora seluas 19 hektar tengah memasarkan klaster terakhirnya, Kanade dengan 3 tipe berbeda. Ketiga tipe tersebut adalah tipe 12 x 22, tipe 10 x 20 dan tipe 8 x 17.",
-        "harga" : "1.200.000",
-        "rumah": "/images/rumah1.jpg",
-        "desain": "/images/desain1.jpg"
+        "description1": "The Zora merupakan hunian dengan konsep 3 Generasi yang mengusung nuansa Jepang didalamnya. Hingga saat ini The Zora telah sukses memasarkan 4 klaster yakni Keia, Kimora, Kazumi, dan Kiyomi serta satu area commercil, Daikanyama yang terdiri dari ruko dan kavling. Menyusul kesuksesan itu, The Zora seluas 19 hektar tengah memasarkan klaster terakhirnya, Kanade dengan 3 tipe berbeda. Ketiga tipe tersebut adalah tipe 12 x 22, tipe 10 x 20 dan tipe 8 x 17.",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "harga" : 8900000000,
+        "rumah": "/images/rumah/rumah1.jpg",
+        "desain": "/images/rumah/desain1.jpg",
+        "pathrumah": "images/rumah/rumah1.jpg",
+        "pathdesain": "images/rumah/desain1.jpg"
     },
     {
         "id": 2,
@@ -22,10 +27,15 @@
         "fitur1": "✓ kolam",
         "fitur2": "✓ taman bermain",
         "fitur3": "✓ club house",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "harga" : "1.200.000",
-        "rumah": "/images/rumah2.jpg",
-        "desain": "/images/desain2.jpg"
+        "description1": "Jatinangor City Park merupakan perumahan yang nyaman untuk dijadikan tempat tinggal. PT. Koryza selaku pengembang, menjadikan Jatinangor City Park sebagai residensial dengan lingkungan asri dan jauh dari kebisingan kota.",
+        "description2": "Selain itu, perumahan pun berada di lokasi cukup strategis. Wilayahnya dekat Unpad, ITB, IPDN dan IKOPIN. Ketiga kampus ternama di Indonesia itu bisa dijangkau hanya dalam waktu 5 menit berkendara.",
+        "description3": "Jatinangor City Park juga dekat dengan pusat perbelanjaan Jatinangor Town Square Mall dan RS AMC yang juga bisa dicapai dalam waktu 5 menit berkendara.",
+        "description4": "Meski berada dalam wilayah administrasi Kabupaten Sumedang, penghuni di perumahan ini tetap memiliki akses mudah dalam menjangkau sejumlah area krusial di Kota dan Kabupaten Bandung.",
+        "harga" : 818000000,
+        "rumah": "/images/rumah/rumah2.jpg",
+        "desain": "/images/rumah/desain2.jpg",
+        "rumahpath": "public/images/rumah/rumah2.jpg",
+        "desainpath": "public/images/rumah/desain2.jpg"
     },
     {
         "id": 3,
@@ -36,10 +46,15 @@
         "fitur1": "✓ kolam",
         "fitur2": "✓ taman bermain",
         "fitur3": "✓ club house",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "harga" : "1.200.000",
-        "rumah": "/images/rumah3.jpg",
-        "desain": "/images/desain3.jpg"
+        "description1": "Podomoro Park Bandung merupakan area residensial persembahan Agung Podomoro Park dengan desain prestisius dan nuansa resort di dalamnya. Dengan luas mencapai 130 Ha, perumahan satu ini menawarkan view pegunungan dan udara segar, lengkap dengan ruang terbuka hijau sebesar 50% dari luas kawasan",
+        "description2": "Segudang fasilitas pendukung pun telah menanti Anda. Dengan konsep one stop living, berikut fasilitas yang dapat dinikmati:Danau sepanjang 1 km, Area komersial, Club house, Taman tematik, Modern fresh market.",
+        "description3": "Tersedia pula sarana olahraga seperti lapangan basket dan tenis, kolam renang, fitness club, jalur sepeda, dan trek jogging di pinggir danau. Sedangkan untuk sistem keamanan, Podomoro Park Bandung telah dilengkapi oleh sistem keamanan yang dikelola oleh profesional. Hal ini dihadirkan oleh pengembang agar penghuni tak cemas, baik ketika berada di dalam hunian maupun ketika sedang bepergian",
+        "description4": "Selain menyajikan fasilitas bintang lima, hunian ini juga memiliki lokasi premium yang akan memudahkan segala aktivitas Anda. Terletak di kawasan Bandung Selatan tepatnya Kecamatan Bojongsoang, perumahan baru di Bandung ini hanya 6 menit dari Gerbang Tol Buah Batu. Jarak menuju pusat kota pun cukup dekat, hanya 18 menit ke Alun-Alun Bandung, serta beberapa menit saja ke fasilitas umum di sekitarnya. Misalnya Transmart Buah Batu Bandung, Telkom University, dan RSUD Al-Ihsan Bandung.Berbagai destinasi wisata alam favorit di Bandung seperti Ciwidey dan Pangalengan pun bisa dicapai sekitar 1 jam saja dari perumahan ini.",
+        "harga" : 800000000,
+        "rumah": "/images/rumah/rumah3.jpg",
+        "desain": "/images/rumah/desain3.jpg",
+        "rumahpath": "public/images/rumah/rumah3.jpg",
+        "desainpath": "public/images/rumah/desain3.jpg"
     },
     {
         "id": 4,
@@ -50,10 +65,15 @@
         "fitur1": "✓ kolam",
         "fitur2": "✓ taman bermain",
         "fitur3": "✓ club house",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "harga" : "1.200.000",
-        "rumah": "/images/rumah4.jpg",
-        "desain": "/images/desain4.jpg"
+        "description1": "Kraton Residence Tipe Maharani adalah cluster premium terbaru yang berada di pusat Jababeka Residence. Kraton Residence menghadirkan hunian asri yang nyaman dengan desain hunian tropis dipadupadankan dengan fitur Smart Home serta pengaplikasian Green Building System. Kraton Residence dilengkapi dengan private clubhouse. Memiliki lokasi yang strategis dengan dikelilingi oleh fasilitas modern serta infrastruktur yang matang.",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "harga" : 900000000,
+        "rumah": "/images/rumah/rumah4.jpg",
+        "desain": "/images/rumah/desain4.jpg",
+        "rumahpath": "public/images/rumah/rumah4.jpg",
+        "desainpath": "public/images/rumah/desain4.jpg"
     },
     {
         "id": 5,
@@ -64,23 +84,33 @@
         "fitur1": "✓ kolam",
         "fitur2": "✓ taman bermain",
         "fitur3": "✓ club house",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "harga" : "1.200.000",
-        "rumah": "/images/rumah5.jpg",
-        "desain": "/images/desain5.jpg"
+        "description1": "Kota Baru Parahyangan adalah Kota Mandiri di Bandung pertama & terbesar (lebih dari 1.250 Ha).Di bawah Lyman Group yang mengedepankan filosofi bisnis “ Reliability & Quality is Our Business“, KBP memiliki Konsep 3 Pilar Utama yaitu Budaya, Sejarah & Pendidikan yang menyokong Pengembangan yang Berkelanjutan (Sustainable Development).",
+        "description2": "Lokasi Kota Baru Parahyangan memiliki Akses Tol Langsung (keluar GT Padalarang Timur) menjadikannya sangat strategis.",
+        "description3": "Berada di ketinggian 650 s/d 900 DPL menciptakan iklim yang nyaman & juga memiliki pemandangan alam yang spektakuler berupa lembah & danau berlatarkan pegunungan.",
+        "description4": "Desain awal MasterPlan KBP oleh SWA Architects (Amerika) menciptakan tatanan desain kota mandiri yang ideal sekaligus merespon keunikan alam eksisting dan menghadirkan Ruang Hijau Terbuka yang cukup besar.",
+        "harga" : 5300000000,
+        "rumah": "/images/rumah/rumah5.jpg",
+        "desain": "/images/rumah/desain5.jpg",
+        "rumahpath": "public/images/rumah/rumah5.jpg",
+        "desainpath": "public/images/rumah/desain5.jpg"
     },
     {
         "id": 6,
-        "title": "The Zora Cluster Kanade",
-        "kota": "Pagedangan, Tangerang",
+        "title": "ModernLand",
+        "kota": "Tanggerang Kota, Tangerang",
         "luasBangunan": "Dari 358 - 485m²",
         "luasTanah": "Dari 200 - 264m²",
         "fitur1": "✓ kolam",
         "fitur2": "✓ taman bermain",
         "fitur3": "✓ club house",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "harga" : "1.200.000",
-        "rumah": "/images/rumah6.jpg",
-        "desain": "/images/desain6.jpg"
+        "description1": "Kota modern merupakan proyek skala kota seluas 400 hekter pertama yang dikembakan PT Modernland realty TBK, sekaligus pelopor pembangunan township diwilayah Tangerang, Dikembangkan sejak tahun 1986, Saat ini dipercaya lebih dari 12.000 Jiwa dan juga menjadi kota mandiri terlengkap, mulai dari tempat Ibadah, Rumah sakit, Sekolah, Sarana Olahraga, Lapangan Golf bertaraf internasional, Pusat perbelanjaan, area komersial, hingga SPBU. Selain bebas banjir Kota Modern mempunyai lokasi strategis yang mempunyai 6 akses utama.",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "harga" : 1950000000,
+        "rumah": "/images/rumah/rumah6.jpg",
+        "desain": "/images/rumah/desain6.jpg",
+        "rumahpath": "public/images/rumah/rumah6.jpg",
+        "desainpath": "public/images/rumah/desain6.jpg"
     }
 ]

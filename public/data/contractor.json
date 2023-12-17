@@ -1,44 +1,38 @@
 [
     {
-        "id": 11,
-        "nama": "John Doe",
-        "umur": 30,
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore",
-        "pengalaman": "12 tahun"
+        "id": 1,
+        "nama": "PT Agung Podomoro Land Tbk",
+        "description": "Agung Podomoro, pengembang properti ternama Indonesia, mulai dengan kompleks perumahan di Simprug, Jakarta Selatan. Sekaligus, mereka membangun kompleks perumahan berfasilitas lengkap. Dengan kerja keras, kini menjadi pemain utama di industri properti Indonesia dan terdaftar di Bursa Efek Indonesia (BEI). Proyek unggulan melibatkan Parkland Podomoro, Bukit Podomoro, dan Orchard Park Batam, menekankan pembangunan berkelanjutan seperti dalam konsep green-oriented development di Parkland Podomoro, Karawang Barat.",
+        "logo": "/images/kontraktor/logo1.jpg"
     },
     {
-        "id": 22,
-        "nama": "Sumanto",
-        "umur": 28,
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore",
-        "pengalaman": "7 tahun"
+        "id": 2,
+        "nama": "PT Bumi Serpong Damai Tbk",
+        "description": "BSD City, atau Bumi Serpong Damai, merupakan kota terencana yang terletak di kawasan Serpong, Tangerang Selatan, Indonesia. Dikembangkan oleh PT Bumi Serpong Damai di bawah Sinarmas Land, salah satu pengembang besar di Indonesia, kota ini menawarkan lahan pengembangan yang luas dengan fasilitas seperti pusat perbelanjaan, tempat rekreasi, area bisnis, dan perumahan. BSD City juga dikenal karena aksesibilitasnya yang mudah melalui lima pintu tol, memudahkan konektivitas dan mobilitas dalam kota terencana ini.",
+        "logo": "/images/kontraktor/logo2.jpg"
     },
     {
-        "id": 33,
-        "nama": "Jatmiko",
-        "umur": 42,
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore",
-        "pengalaman": "8 tahun"
+        "id": 3,
+        "nama": "PT Ciputra Development Tbk",
+        "description": "PT Ciputra Development Tbk, atau Ciputra Group, sebagai developer properti terkemuka di Indonesia, didirikan pada tahun 1981 dan telah memperluas operasinya dengan mengembangkan perumahan dan area komersial di seluruh negeri. Ciputra Group dikenal melalui sejumlah mega proyek termasuk Ciputra World di Jakarta Selatan, Citra Raya Tangerang, dan CitraIndah City Jonggol. Selain itu, mereka memiliki Citra Towers Kemayoran sebagai proyek gedung perkantoran di Jakarta Pusat.",
+        "logo": "/images/kontraktor/logo3.jpg"
     },
     {
-        "id": 44,
-        "nama": "Jumari Ari",
-        "umur": 40,
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore",
-        "pengalaman": "10 tahun"
+        "id": 4,
+        "nama": "PT Lippo Karawaci Tbk",
+        "description": "PT Lippo Karawaci, yang didirikan pada tahun 1990 sebagai bagian dari Lippo Group, bukan hanya fokus pada pengembangan hunian, tetapi juga proyek komersial termasuk Rumah Sakit Siloam, Hotel Aryaduta, dan Taman Makam San Diego Hills. Mereka terkenal dengan pengembangan area superblok yang menggabungkan tempat tinggal, hotel, mal, rumah sakit, sekolah, dan area bisnis. Beberapa proyek unggulan mereka mencakup City of Tomorrow, Kemang Village, Millennium Village, Orange County, dan banyak lagi.",
+        "logo": "/images/kontraktor/logo4.jpg"
     },
     {
-        "id": 55,
-        "nama": "Suparno",
-        "umur": 37,
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore",
-        "pengalaman": "5 tahun"
+        "id": 5,
+        "nama": "PT Pakuwon Jati Tbk",
+        "description": "Berkantor pusat di Kota Surabaya, PT Pakuwon Jati, sebagai salah satu perusahaan real estate terbesar di Indonesia, memiliki dua unit perumahan dan empat superblok tersebar di Jakarta, Surabaya, Yogyakarta, dan Solo per akhir tahun 2021. Beberapa superblok di Surabaya melibatkan Pakuwon City, Pakuwon Mall, dan Tunjungan City, sementara di Jabodetabek terdapat Gandaria City, Kota Kasablanka, Pakuwon Bekasi, dan Blok M Plaza. Selain itu, untuk pilihan hunian vertikal, Pakuwon Jati telah mendirikan Apartemen One Icon Residence dan Pakuwon Residence Bekasi, menawarkan solusi tinggal yang nyaman.",
+        "logo": "/images/kontraktor/logo5.jpg"
     },
     {
-        "id": 66,
-        "nama": "Jokowi",
-        "umur": 30,
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempora molestiae, iste quia quos veritatis, nulla ipsam officia temporibus obcaecati ad autem et quidem modi architecto rerum. Vel, dolorem labore",
-        "pengalaman": "2 tahun"
+        "id": 6,
+        "nama": " PT Agung Sedayu Group",
+        "description": "Perumahan mewah Pantai Indah Kapuk (PIK) yang terkenal merupakan bagian dari proyek ambisius dari Agung Sedayu Group, salah satu perusahaan properti terbesar di Indonesia. Agung Sedayu Group telah sukses mengembangkan berbagai proyek properti, khususnya kompleks hunian mewah seperti Green Lake City, Green Village, dan Golf Lake Residence. Selain itu, mereka juga menawarkan pilihan hunian vertikal menarik seperti Green Sedayu Apartment, Puri Mansion Apartment, Residence 8 Senopati, dan The Mansion at Kemang.",
+        "logo": "/images/kontraktor/logo6.jpg"
     }
 ]

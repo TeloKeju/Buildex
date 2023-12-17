@@ -7,12 +7,15 @@
 /* 
 Header CSS
 */
+    
 
 .navbar {
+    background-color: #161A30;
     position: sticky;
     top: 0;
     z-index: 3;
 }
+
 
 /* 
 Home CSS
@@ -45,6 +48,10 @@ Home CSS
     }
 
     .pict-wrap {
+        order: 2;
+    }
+
+    .contact {
         order: 2;
     }
 
@@ -124,6 +131,18 @@ detail CSS
     display: none;
 }
 
+.darken {
+    filter: brightness(75%);
+}
+
+.title {
+    color: white;
+}
+
+.ijo {
+    color: green;
+}
+
 @media screen and (min-width: 529px) {
     .content-detail h1 {
         display: none;
@@ -136,6 +155,20 @@ detail CSS
     .carousel-inner p {
         display: block;
     }
+}
+
+/* 
+Daftar Client CSS
+*/
+
+.daftar-client {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 4fr;
+}
+
+.progres {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 /*

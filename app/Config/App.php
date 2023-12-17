@@ -175,4 +175,12 @@ class App extends BaseConfig
      * @see http://www.w3.org/TR/CSP/
      */
     public bool $CSPEnabled = false;
+
+    public $midtrans = [
+        'isProduction' => false, // Set true jika sudah di production
+        'serverKey' => 'SB-Mid-server-Lyp8FBFYFn3ZSjuigaeE4nAg',
+        'clientKey' => 'SB-Mid-client-yE2fA64j8tSk4Ffc',
+        'isSanitized' => true,
+        'is3ds' => true,
+    ];
 }

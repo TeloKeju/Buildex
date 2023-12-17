@@ -1,7 +1,7 @@
 <?= $this->extend('layout/template'); ?>
 
 <?= $this->section('content'); ?>
-<div class="container mt-5 mb-5">
+<div class="p-5 mt-5 mb-5">
     <div class="row">
         <div class="col">
             <div class="card" style="overflow-y: auto;">
@@ -31,7 +31,7 @@
                     <tbody>
                         <?php $i = 1;
                         // dd($pesanan);
-                            // foreach($pesanan as $pesanan):
+                        // foreach($pesanan as $pesanan):
                         ?>
                         <tr>
                             <td scope="row" class="text-center"><?= $i++ ?></td>
@@ -49,7 +49,8 @@
                             <td><?= $pesanan['description3'] ?></td>
                             <td><?= $pesanan['description4'] ?></td>
                         </tr>
-                        <?php //endforeach ?>
+                        <?php //endforeach 
+                        ?>
                     </tbody>
                 </table>
             </div>

@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= $title; ?></title>
     <!-- Jquery Library -->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="/vendor/jquery-3.6.4.min.js"></script>
+    <link href="/vendor/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/styles/style.css">
     <!-- Pustaka Toastr -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <link rel="stylesheet" href="/vendor/toastr.min.css">
 </head>
 
 <body>
@@ -30,9 +30,11 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="#about">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="<?= base_url('pages/daftarclient') ?>">Daftar Client</a>
-                    </li>
+                    <?php if (session()->get('kode_user') == 10) : ?>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="<?= base_url('pages/daftarclient') ?>">Daftar Client</a>
+                        </li>
+                    <?php endif ?>
 
                     <li class="nav-item">
                         <a class="nav-link active" href="<?= base_url('pages/login') ?>">Login</a>
@@ -53,11 +55,11 @@
 
     <?= $this->renderSection('content'); ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="/vendor/bootstrap.bundle.min.js" ></script>
+    <script src="/vendor/popper.min.js"></script>
+    <script src="/vendor/bootstrap.min.js"></script>
     <!-- Pustaka Toastr -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="/vendor/toastr.min.js"></script>
 
     <footer class="footer mt-auto py-3 bg-light">
         <p class="text-center">&copy;Copyright 2023</p>

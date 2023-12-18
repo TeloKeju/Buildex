@@ -4,15 +4,15 @@
 <main class="p-3">
     <form>
         <div class="mb-3">
-            <label for="loginEmail" class="form-label">Email address</label>
+            <label for="loginEmail" class="form-label" tabindex="0">Email address</label>
             <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3">
-            <label for="loginPassword" class="form-label">Password</label>
+            <label for="loginPassword" class="form-label" tabindex="0">Password</label>
             <input type="password" class="form-control" id="loginPassword">
         </div>
-        <button type="submit" class="btn btn-primary" id="btnLogin">Log In</button>
+        <button type="submit" class="btn btn-primary" id="btnLogin" tabindex="0">Log In</button>
         <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pendaftaran">
             Daftar Sekarang
         </button> -->
@@ -22,43 +22,43 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="pendaftaran">Pendaftaran</h5>
+                    <h5 class="modal-title" id="pendaftaran" tabindex="0">Pendaftaran</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">Username anda</span>
+                            <span class="input-group-text" tabindex="0">Username anda</span>
                         </div>
                         <input type="text" class="form-control nama" id="username" placeholder="username anda" />
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">Nama Lengkap</span>
+                            <span class="input-group-text" tabindex="0">Nama Lengkap</span>
                         </div>
                         <input type="text" class="form-control nama" id="nama_lengkap" placeholder="Nama Anda" />
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">Email</span>
+                            <span class="input-group-text" tabindex="0">Email</span>
                         </div>
                         <input type="text" class="form-control kelas" id="email" placeholder="Email anda" />
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">No Telephone</span>
+                            <span class="input-group-text" tabindex="0">No Telephone</span>
                         </div>
                         <input type="text" class="form-control kelas" id="no_telephone" placeholder="Nomor Telepone anda" />
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">Password</span>
+                            <span class="input-group-text" tabindex="0">Password</span>
                         </div>
                         <input type="password" class="form-control kelas" id="password" placeholder="Masukkan Password anda" />
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text"> Konfirmasi Password</span>
+                            <span class="input-group-text" tabindex="0"> Konfirmasi Password</span>
                         </div>
                         <input type="password" class="form-control kelas" placeholder="Passwordnya disamakan" />
                     </div>

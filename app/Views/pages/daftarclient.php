@@ -8,29 +8,28 @@
                 <table class="table table-bordered" id="daftarclient">
                     <thead>
                         <tr>
-                            <th colspan="1" rowspan="2" class="text-center">No.</th>
-                            <th colspan="1" rowspan="2" class="text-center">Nama Client</th>
-                            <th colspan="1" rowspan="2" class="text-center">Nama Contractor</th>
-                            <th colspan="1" rowspan="2" class="text-center">Tgl. Pembangunan</th>
-                            <th colspan="1" rowspan="2" class="text-center">Detail</th>
-                            <th colspan="3" rowspan="1" class="text-center">Progress</th>
+                            <th colspan="1" rowspan="2" class="text-center" tabindex="0">No.</th>
+                            <th colspan="1" rowspan="2" class="text-center" tabindex="0">Nama Client</th>
+                            <th colspan="1" rowspan="2" class="text-center" tabindex="0">Nama Contractor</th>
+                            <th colspan="1" rowspan="2" class="text-center" tabindex="0">Tgl. Pembangunan</th>
+                            <th colspan="1" rowspan="2" class="text-center" tabindex="0">Detail</th>
+                            <th colspan="3" rowspan="1" class="text-center" tabindex="0">Progress</th>
                         </tr>
                         <tr>
-                            <th colspan="1" rowspan="1" class="text-center">Accept</th>
-                            <th colspan="1" rowspan="1" class="text-center">Mulai Pengerjaan</th>
-                            <th colspan="1" rowspan="1" class="text-center">Pengerjaan Selesai</th>
+                            <th colspan="1" rowspan="1" class="text-center" tabindex="0">Accept</th>
+                            <th colspan="1" rowspan="1" class="text-center" tabindex="0">Mulai Pengerjaan</th>
+                            <th colspan="1" rowspan="1" class="text-center" tabindex="0">Pengerjaan Selesai</th>
                         </tr>
                     </thead>
                     <tbody class="table-group-divider">
                         <?php $i = 1;
                         foreach ($client as $client) :
-                            // dd($client);
                         ?>
                             <tr>
                                 <td scope="row" class="text-center"><?= $i++ ?></td>
-                                <td><?= isset($client['nama']) ? $client['nama'] : '' ?></td>
-                                <td><?= isset($client['contractor']) ? $client['contractor'] : '' ?></td>
-                                <td><?= isset($client['tanggal_pembangunan']) ? $client['tanggal_pembangunan'] : '' ?></td>
+                                <td tabindex="0"><?= isset($client['nama']) ? $client['nama'] : '' ?></td>
+                                <td tabindex="0"><?= isset($client['contractor']) ? $client['contractor'] : '' ?></td>
+                                <td tabindex="0"><?= isset($client['tanggal_pembangunan']) ? $client['tanggal_pembangunan'] : '' ?></td>
                                 <td class="text-center">
                                     <a href="<?= base_url('pages/detailpesanan/' . $client['id']); ?>" class="btn btn-warning">Detail</a>
                                 </td>
@@ -39,18 +38,18 @@
                                         <button class="btn btn-success btn-sm mt-2 accept-btn" data-order-id="<?= $client['id']; ?>" onclick="updateStatus(<?= $client['id']; ?>, 1)">Accept</button>
                                         <button class="btn btn-danger btn-sm mt-2 declined-btn" data-order-id="<?= $client['id']; ?>" onclick="updateStatus(<?= $client['id']; ?>, 0)">Declined</button>
                                     <?php elseif ($client['accept'] == 1) : ?>
-                                        <span class="badge" style="width: 75px; background-color: #28a745; color: #fff; font-size: 14px; padding: 5px;">Accept</span>
+                                        <span class="badge" style="width: 75px; background-color: #28a745; color: #fff; font-size: 14px; padding: 5px;" tabindex="0">Accept</span>
                                     <?php elseif ($client['accept'] == 0) : ?>
-                                        <span class="badge" style="width: 75px; background-color: #dc3545; color: #fff; font-size: 14px; padding: 5px;">Declined</span>
+                                        <span class="badge" style="width: 75px; background-color: #dc3545; color: #fff; font-size: 14px; padding: 5px;" tabindex="0">Declined</span>
                                     <?php endif ?>
                                 </td>
                                 <td class="text-center">
                                     <?php if ($client['start'] === null && $client['accept'] == 1) : ?>
-                                        <button class="btn btn-success btn-sm mt-2" onclick="updateStart(<?= $client['id']; ?>, 1)">Start</button>
+                                        <button class="btn btn-success btn-sm mt-2" onclick="updateStart(<?= $client['id']; ?>, 1)" tabindex="0">Start</button>
                                     <?php elseif ($client['start'] === null && $client['accept'] === null) : ?>
-                                        <button class="btn btn-secondary btn-sm mt-2">Start</button>
+                                        <button class="btn btn-secondary btn-sm mt-2" tabindex="0">Start</button>
                                     <?php elseif ($client['start'] === null && $client['accept'] == 0) : ?>
-                                        <span class="badge" style="width: 75px; background-color: #dc3545; color: #fff; font-size: 14px; padding: 5px;">Declined</span>
+                                        <span class="badge" style="width: 75px; background-color: #dc3545; color: #fff; font-size: 14px; padding: 5px;" tabindex="0">Declined</span>
                                     <?php elseif ($client['start'] == 1 && $client['done'] == 1) : ?>
                                         <span class="badge" style="width: 100px; background-color: #28a745; color: #fff; font-size: 14px; padding: 5px;">
                                             Done
@@ -63,13 +62,13 @@
                                 </td>
                                 <td class="text-center">
                                     <?php if ($client['done'] === null && $client['start'] == 1) : ?>
-                                        <button class="btn btn-success btn-sm mt-2" onclick="updateDone(<?= $client['id']; ?>, 1)">Done</button>
+                                        <button class="btn btn-success btn-sm mt-2" onclick="updateDone(<?= $client['id']; ?>, 1)" tabindex="0">Done</button>
                                     <?php elseif ($client['done'] == null && $client['start'] == null && ($client['accept'] == 1 || $client['accept'] === null)) : ?>
-                                        <button class="btn btn-secondary btn-sm mt-2">Done</button>
+                                        <button class="btn btn-secondary btn-sm mt-2" tabindex="0">Done</button>
                                     <?php elseif ($client['done'] == null && $client['accept'] == 0 && $client['accept'] == 0) : ?>
-                                        <span class="badge" style="width: 75px; background-color: #dc3545; color: #fff; font-size: 14px; padding: 5px;">Declined</span>
+                                        <span class="badge" style="width: 75px; background-color: #dc3545; color: #fff; font-size: 14px; padding: 5px;" tabindex="0">Declined</span>
                                     <?php elseif ($client['done'] == 1 && $client['start'] == 1) : ?>
-                                        <span class="badge" style="width: 110px; background-color: #28a745; color: #fff; font-size: 14px; padding: 5px;">
+                                        <span class="badge" style="width: 110px; background-color: #28a745; color: #fff; font-size: 14px; padding: 5px;" tabindex="0">
                                             Project Ended
                                         </span>
                                     <?php endif ?>

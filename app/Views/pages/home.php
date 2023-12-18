@@ -21,7 +21,7 @@
             <section class="right-picture">
                 <section class="pict-wrap btn-wrap">
                     <p class="mt-3 lh-base" tabindex="0">
-                        Navigasi intuitif dan antarmuka yang ramah pengguna memungkinkan Anda menjelajahi berbagai desain rumah dari berbagai gaya arsitektur. Dari rumah minimalis hingga klasik, kami memiliki koleksi desain yang beragam untuk memenuhi selera Anda.
+                        Navigasi yang intuitif dan antarmuka yang ramah pengguna, memungkinkan Anda untuk menjelajahi berbagai desain rumah. mulai dari gaya arsitektur seperti mediterania, kontemporer, klasik hingga rumah yang minimalis. kami memiliki koleksi desain rumah yang beragam dan bervariasi untuk memenuhi selera dan kebutuhan rumah impian Anda.
                     </p>
                     <a href="<?= base_url('pages/desain') ?>" class="btn btn-light m-auto w-auto">Selengkapnya</a>
                 </section>
@@ -34,7 +34,7 @@
                 <img src="<?= base_url('images/home/contractor.png'); ?>" class="rounded mx-auto d-block img-fluid" alt="pict" />
                 <section class="btn-wrap">
                     <p class="mt-3 lh-base" tabindex="0">
-                        Temukan kontraktor yang tepat untuk proyek Anda melalui katalog kontraktor terpercaya kami. Profil lengkap dan portofolio proyek akan membantu Anda membuat keputusan yang lebih baik dan mengurangi ketidakpastian dalam memilih kontraktor pembangunan.
+                        kontraktor yang baik merupakan kunci dari rumah yang baik maka dari itu, temukan kontraktor yang tepat untuk proyek anda melalui katalog kontraktor kepercayaan kami. profil yang lengkap dan portofolio proyek akan membantu anda membuat keputusan yang tepat serta mengurangi ketidakpastian anda dalam memilih kontraktor pembangunan rumah.
                     </p>
                     <a href="<?= base_url('pages/contractor') ?>" class="btn btn-light m-auto w-auto">Selengkapnya</a>
                 </section>
@@ -48,7 +48,7 @@
                         Kami berkomitmen untuk memberikan layanan pelanggan terbaik dan merespons setiap pertanyaan dengan segera. Terima kasih atas kepercayaan Anda kepada kami, dan kami berharap dapat membantu Anda dengan kebutuhan atau pertanyaan apa pun yang Anda miliki.
                         Terima kasih telah mengunjungi Buildex!
                     </p>
-                    <a href="https://wa.me/+6285646426201" class="btn btn-light m-auto w-auto">Kontak Kami Disini</a>
+                    <a href="https://wa.me/+628976461590" class="btn btn-light m-auto w-auto">Kontak Kami Disini</a>
                 </section>
                 <img src="<?= base_url('images/home/contact-us.png'); ?>" class="rounded mx-auto d-block img-fluid" alt="pict" />
             </section>

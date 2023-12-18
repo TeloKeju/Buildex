@@ -8,48 +8,45 @@
                 <table class="table table-bordered" id="daftarpesanan">
                     <thead>
                         <tr>
-                            <th colspan="1" rowspan="2" class="text-center">No.</th>
-                            <th colspan="1" rowspan="2" class="text-center">Alamat</th>
-                            <th colspan="1" rowspan="2" class="text-center">No. Telp</th>
-                            <th colspan="1" rowspan="2" class="text-center">Email</th>
-                            <th colspan="1" rowspan="2" class="text-center">Harga</th>
-                            <th colspan="1" rowspan="2" class="text-center">Luas Bangunan</th>
-                            <th colspan="1" rowspan="2" class="text-center">Luas Tanah</th>
-                            <th colspan="3" rowspan="1" class="text-center">Fitur</th>
-                            <th colspan="4" rowspan="1" class="text-center">Deskripsi</th>
+                            <th colspan="1" rowspan="2" class="text-center" tabindex="0">No.</th>
+                            <th colspan="1" rowspan="2" class="text-center" tabindex="0">Alamat</th>
+                            <th colspan="1" rowspan="2" class="text-center" tabindex="0">No. Telp</th>
+                            <th colspan="1" rowspan="2" class="text-center" tabindex="0">Email</th>
+                            <th colspan="1" rowspan="2" class="text-center" tabindex="0">Harga</th>
+                            <th colspan="1" rowspan="2" class="text-center" tabindex="0">Luas Bangunan</th>
+                            <th colspan="1" rowspan="2" class="text-center" tabindex="0">Luas Tanah</th>
+                            <th colspan="3" rowspan="1" class="text-center" tabindex="0">Fitur</th>
+                            <th colspan="4" rowspan="1" class="text-center" tabindex="0">Deskripsi</th>
                         </tr>
                         <tr>
-                            <th colspan="1" rowspan="1" class="text-center">Fitur 1</th>
-                            <th colspan="1" rowspan="1" class="text-center">Fitur 2</th>
-                            <th colspan="1" rowspan="1" class="text-center">Fitur 3</th>
-                            <th colspan="1" rowspan="1" class="text-center">Desc. 1</th>
-                            <th colspan="1" rowspan="1" class="text-center">Desc. 2</th>
-                            <th colspan="1" rowspan="1" class="text-center">Desc. 3</th>
-                            <th colspan="1" rowspan="1" class="text-center">Desc. 4</th>
+                            <th colspan="1" rowspan="1" class="text-center"tabindex="0">Fitur 1</th>
+                            <th colspan="1" rowspan="1" class="text-center"tabindex="0">Fitur 2</th>
+                            <th colspan="1" rowspan="1" class="text-center"tabindex="0">Fitur 3</th>
+                            <th colspan="1" rowspan="1" class="text-center"tabindex="0">Desc. 1</th>
+                            <th colspan="1" rowspan="1" class="text-center"tabindex="0">Desc. 2</th>
+                            <th colspan="1" rowspan="1" class="text-center"tabindex="0">Desc. 3</th>
+                            <th colspan="1" rowspan="1" class="text-center"tabindex="0">Desc. 4</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <?php $i = 1;
-                        // dd($pesanan);
-                        // foreach($pesanan as $pesanan):
-                        ?>
+                        <?php $i = 1; ?>
                         <tr>
                             <td scope="row" class="text-center"><?= $i++ ?></td>
-                            <td><?= $pesanan['alamat'] ?></td>
-                            <td><?= $pesanan['no_telp'] ?></td>
-                            <td><?= $pesanan['email'] ?></td>
-                            <td><?= $pesanan['housePrice'] ?></td>
-                            <td><?= $pesanan['luasBangunan'] ?></td>
-                            <td><?= $pesanan['luasTanah'] ?></td>
-                            <td><?= $pesanan['fitur1'] ?></td>
-                            <td><?= $pesanan['fitur2'] ?></td>
-                            <td><?= $pesanan['fitur3'] ?></td>
-                            <td><?= $pesanan['description1'] ?></td>
-                            <td><?= $pesanan['description2'] ?></td>
-                            <td><?= $pesanan['description3'] ?></td>
-                            <td><?= $pesanan['description4'] ?></td>
+                            <td tabindex="0"><?= $pesanan['alamat'] ?></td>
+                            <td tabindex="0"><?= $pesanan['no_telp'] ?></td>
+                            <td tabindex="0"><?= $pesanan['email'] ?></td>
+                            <td tabindex="0"><?= $pesanan['housePrice'] ?></td>
+                            <td tabindex="0"><?= $pesanan['luasBangunan'] ?></td>
+                            <td tabindex="0"><?= $pesanan['luasTanah'] ?></td>
+                            <td tabindex="0"><?= $pesanan['fitur1'] ?></td>
+                            <td tabindex="0"><?= $pesanan['fitur2'] ?></td>
+                            <td tabindex="0"><?= $pesanan['fitur3'] ?></td>
+                            <td tabindex="0"><?= $pesanan['description1'] ?></td>
+                            <td tabindex="0"><?= $pesanan['description2'] ?></td>
+                            <td tabindex="0"><?= $pesanan['description3'] ?></td>
+                            <td tabindex="0"><?= $pesanan['description4'] ?></td>
                         </tr>
-                        <?php //endforeach 
+                        <?php
                         ?>
                     </tbody>
                 </table>
@@ -59,8 +56,6 @@
 </div>
 
 <script>
-    $(document).ready(function() {
-        // $('#daftarpesanan').DataTable()
-    });
+    $(document).ready(function() {});
 </script>
 <?= $this->endSection(); ?>

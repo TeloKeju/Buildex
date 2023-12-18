@@ -31,20 +31,20 @@
                 </button>
             </div>
             <section class="p-2">
-                <h1 class="fw-bold fs-5 mt-2"><?= $rumahDetail['title']; ?></h1>
-                <h2 class="fw-light fs-6 p-2"><?= $rumahDetail['kota']; ?></h2>
-                <h3 class="fw-semibold fs-6 ms-4 mb-0 border-start">Harga</h3>
-                <h3 class="fw-bold fs-6 ms-4 border-start">Rp. <?= $rumahDetail['harga']; ?></h3>
-                <h3 class="fw-normal fs-6 ms-2"><?= $rumahDetail['fitur1']; ?></h3>
-                <h3 class="fw-normal fs-6 ms-2"><?= $rumahDetail['fitur2']; ?></h3>
-                <h3 class="fw-normal fs-6 ms-2"><?= $rumahDetail['fitur3']; ?></h3>
-                <h3 class="fw-bold fs-6 ms-2 mt-4">Deskripsi</h3>
-                <p class="mt-3 mb-0 p-2 lh-base"><?= $rumahDetail['description1']; ?></p>
-                <p class="p-2 mb-0 lh-base"><?= $rumahDetail['description2']; ?></p>
-                <p class="p-2 mb-0 lh-base"><?= $rumahDetail['description3']; ?></p>
-                <p class="p-2 mb-0 lh-base"><?= $rumahDetail['description4']; ?></p>
+                <h1 class="fw-bold fs-5 mt-2" tabindex="0"><?= $rumahDetail['title']; ?></h1>
+                <h2 class="fw-light fs-6 p-2" tabindex="0"><?= $rumahDetail['kota']; ?></h2>
+                <h3 class="fw-semibold fs-6 ms-4 mb-0 border-start" tabindex="0">Harga</h3>
+                <h3 class="fw-bold fs-6 ms-4 border-start" tabindex="0">Rp. <?= $rumahDetail['harga']; ?></h3>
+                <h3 class="fw-normal fs-6 ms-2" tabindex="0"><?= $rumahDetail['fitur1']; ?></h3>
+                <h3 class="fw-normal fs-6 ms-2" tabindex="0"><?= $rumahDetail['fitur2']; ?></h3>
+                <h3 class="fw-normal fs-6 ms-2" tabindex="0"><?= $rumahDetail['fitur3']; ?></h3>
+                <h3 class="fw-bold fs-6 ms-2 mt-4" tabindex="0">Deskripsi</h3>
+                <p class="mt-3 mb-0 p-2 lh-base" tabindex="0"><?= $rumahDetail['description1']; ?></p>
+                <p class="p-2 mb-0 lh-base" tabindex="0"><?= $rumahDetail['description2']; ?></p>
+                <p class="p-2 mb-0 lh-base" tabindex="0"><?= $rumahDetail['description3']; ?></p>
+                <p class="p-2 mb-0 lh-base"tabindex="0"><?= $rumahDetail['description4']; ?></p>
 
-                <?php //if (session()->has('username')) : 
+                <?php
                 ?>
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalmessage">
                     Pesan
@@ -57,19 +57,19 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <label for="nama" class="form-label">Nama Lengkap:</label>
+                                <label for="nama" class="form-label" tabindex="0">Nama Lengkap:</label>
                                 <input type="text" class="form-control" id="nama">
-                                <label for="nik" class="form-label">NIK:</label>
+                                <label for="nik" class="form-label" tabindex="0">NIK:</label>
                                 <input type="number" class="form-control" id="nik">
-                                <label for="no_telp" class="form-label">Nomor Telp:</label>
+                                <label for="no_telp" class="form-label" tabindex="0">Nomor Telp:</label>
                                 <input type="number" class="form-control" id="no_telp">
-                                <label for="email" class="form-label">Email:</label>
+                                <label for="email" class="form-label" tabindex="0">Email:</label>
                                 <input type="email" class="form-control" id="email">
-                                <label for="alamat" class="form-label">Alamat:</label>
+                                <label for="alamat" class="form-label" tabindex="0">Alamat:</label>
                                 <input type="text" class="form-control" id="alamat">
-                                <label for="tanggal_pembangunan" class="form-label">Tanggal Pembangunan:</label>
+                                <label for="tanggal_pembangunan" class="form-label" tabindex="0">Tanggal Pembangunan:</label>
                                 <input type="date" class="form-control" id="tanggal_pembangunan" min="<?= date('Y-m-d', strtotime('+7 days')); ?>">
-                                <label for="contractorSelect" class="form-label">Pilih Kontraktor:</label>
+                                <label for="contractorSelect" class="form-label" tabindex="0">Pilih Kontraktor:</label>
                                 <select class="form-select" id="contractorSelect" name="contractorSelect" aria-label="Default select example">
                                     <?php
                                     foreach ($contractors as $contractor) : ?>
@@ -97,15 +97,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- <?php //else : 
-                        ?>
-                    <button type="button" class="btn btn-secondary" title="You Must Log In!" disabled>
-                        Pilih
-                    </button>
-                <?php //endif; 
-                ?> -->
-
             </section>
         </section>
     </article>

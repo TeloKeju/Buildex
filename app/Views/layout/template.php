@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sebuah website untuk melakukan pemesanan pembangunan rumah yang sudah menyediakan desain dan kontraktor">
+    <meta name="dicoding:email" content="ardiansyachd5@gmail.com">
     <title><?= $title; ?></title>
 
     <link rel="shortcut icon" href="<?= base_url('/favicon.ico') ?>" type="image/x-icon">
@@ -60,9 +61,6 @@
 
     <?= $this->renderSection('content'); ?>
 
-    <!-- <script src="/vendor/bootstrap.bundle.min.js"></script>
-    <script src="/vendor/popper.min.js"></script>
-    <script src="/vendor/bootstrap.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <!-- Pustaka Toastr -->
